@@ -1,0 +1,13 @@
+// Variables
+// @import 'variables';
+
+html,
+body {
+    background-color: $body-bg;
+    color: $yellow2;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
