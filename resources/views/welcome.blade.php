@@ -43,12 +43,15 @@
         <p>
           Por eso, a través de un trueque solidario, unimos negocios y/o emprendimientos para que juntos puedan salir
           adelante. </p>
-          <h1>¡Comienza a truequear!</h1>
+        <h1>¡Comienza a truequear!</h1>
       </div>
       <div class="home-links">
-        <a href="https://laravel.com/docs">Publica un trueque<img src="{{asset('images/publica-trueque.png')}}" class="img-fluid "></a>
-        <a href="https://laracasts.com">Busca un trueque<img src="{{asset('images/busca-trueque.png')}}" class="img-fluid "></a>
-        <a href="https://laravel-news.com">Mi cuenta<img src="{{asset('images/cuenta-truequea.png')}}" class="img-fluid "></a>
+        <a href=""><span>Publica un trueque</span><img
+            src="{{asset('images/publica-trueque.png')}}" class="img-fluid ml-5"></a>
+        <a href=""><span>Busca un trueque</span><img src="{{asset('images/busca-trueque.png')}}"
+            class="img-fluid ml-5"></a>
+        <a href=""><span>Mi cuenta</span><img src="{{asset('images/cuenta-truequea.png')}}"
+            class="img-fluid ml-6"></a>
 
       </div>
     </div>
