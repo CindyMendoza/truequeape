@@ -9,12 +9,14 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-
+  <!-- Scripts -->
+  <script src="{{ asset('js/app.js') }}" defer></script>
+  <!-- Styles -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body>
-  <div class="flex-center position-ref full-height">
+  <div class="container text-center">
     @if (Route::has('login'))
     <div class="top-right links">
       @auth
@@ -31,18 +33,23 @@
 
     <div class="content">
       <div class="title m-b-md">
-        Laravel
+        {{-- Laravel --}}
+        <img src="{{asset('images/logo-truequea.png')}}" class="img-fluid w-50">
       </div>
+      <div class="home-intro m-auto">
+        <p>Somos una plataforma que conecta a personas que necesitan un producto o servicio, pero que no tienen cómo
+          pagarlo debido a la crisis que vivimos hoy en día.
+        </p>
+        <p>
+          Por eso, a través de un trueque solidario, unimos negocios y/o emprendimientos para que juntos puedan salir
+          adelante. </p>
+          <h1>¡Comienza a truequear!</h1>
+      </div>
+      <div class="home-links">
+        <a href="https://laravel.com/docs">Publica un trueque<img src="{{asset('images/publica-trueque.png')}}" class="img-fluid "></a>
+        <a href="https://laracasts.com">Busca un trueque<img src="{{asset('images/busca-trueque.png')}}" class="img-fluid "></a>
+        <a href="https://laravel-news.com">Mi cuenta<img src="{{asset('images/cuenta-truequea.png')}}" class="img-fluid "></a>
 
-      <div class="links">
-        <a href="https://laravel.com/docs">Docs</a>
-        <a href="https://laracasts.com">Laracasts</a>
-        <a href="https://laravel-news.com">News</a>
-        <a href="https://blog.laravel.com">Blog</a>
-        <a href="https://nova.laravel.com">Nova</a>
-        <a href="https://forge.laravel.com">Forge</a>
-        <a href="https://vapor.laravel.com">Vapor</a>
-        <a href="https://github.com/laravel/laravel">GitHub</a>
       </div>
     </div>
   </div>
