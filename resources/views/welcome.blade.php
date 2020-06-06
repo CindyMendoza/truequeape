@@ -46,12 +46,10 @@
         <h1>¡Comienza a truequear!</h1>
       </div>
       <div class="home-links">
-        <a href=""><span>Publica un trueque</span><img
-            src="{{asset('images/publica-trueque.png')}}" class="img-fluid ml-5"></a>
-        <a href=""><span>Busca un trueque</span><img src="{{asset('images/busca-trueque.png')}}"
-            class="img-fluid ml-5"></a>
-        <a href=""><span>Mi cuenta</span><img src="{{asset('images/cuenta-truequea.png')}}"
-            class="img-fluid ml-6"></a>
+        <a href=""><span>Publica un trueque</span><img src="{{asset('images/publica-trueque.png')}}"
+            class="img-fluid"></a>
+        <a href=""><span>Busca un trueque</span><img src="{{asset('images/busca-trueque.png')}}" class="img-fluid"></a>
+        <a href=""><span>Mi cuenta</span><img src="{{asset('images/cuenta-truequea.png')}}" class="img-fluid"></a>
 
       </div>
     </div>

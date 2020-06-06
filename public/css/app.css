@@ -10967,10 +10967,50 @@ body {
 }
 
 .home-links img {
-  width: 27px;
+  width: 13px;
 }
 
 .ml-6 {
   margin-left: 6rem !important;
+}
+
+.bg-yellow {
+  background-color: #FFBD2A;
+}
+
+.form-control {
+  background-color: #1A4B76;
+  border: 1px solid #FFBD2A;
+  color: #FFBD2A;
+}
+
+.form-control:focus {
+  background-color: #1A4B76;
+  border: 1px solid #FFBD2A;
+  color: #FFBD2A;
+}
+
+/* Chrome/Opera/Safari */
+
+.form-control::-webkit-input-placeholder {
+  color: #FFBD2A;
+}
+
+/* Firefox 19+ */
+
+.form-control::-moz-placeholder {
+  color: #FFBD2A;
+}
+
+/* IE 10+ */
+
+.form-control:-ms-input-placeholder {
+  color: #FFBD2A;
+}
+
+/* Firefox 18- */
+
+.form-control:-moz-placeholder {
+  color: #FFBD2A;
 }
 
