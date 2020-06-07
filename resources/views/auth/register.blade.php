@@ -33,10 +33,17 @@
 
 
               <div class="col-12">
-                <input id="headcompanyname" type="text"
-                  class="form-control @error('headcompanyname') is-invalid @enderror" name="headcompanyname"
-                  value="{{ old('headcompanyname') }}" required autocomplete="headcompanyname" autofocus
-                  placeholder="{{ __('Rubro') }}">
+                <select id="headcompanyname" class="form-control @error('headcompanyname') is-invalid @enderror"
+                  placeholder="" name="headcompanyname" value="{{ old('headcompanyname') }}" required
+                  autocomplete="headcompanyname" autofocus>
+                  <option selected value="">{{ __('Rubro') }}</option>
+
+                </select>
+                @php
+                echo Form::select('size', ['L' => 'Large', 'S' => 'Small']);
+                @endphp
+
+
 
                 @error('headcompanyname')
                 <span class="invalid-feedback" role="alert">
