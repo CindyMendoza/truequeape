@@ -49,3 +49,6 @@ const imageminMozjpeg    = require('imagemin-mozjpeg');
     });
 // }
 
+if (mix.inProduction()) {
+  mix.version();
+}

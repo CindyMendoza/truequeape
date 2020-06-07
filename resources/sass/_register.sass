@@ -1,26 +1,42 @@
 
-.form-control
+.formregister input
   background-color:$blue2
   border: 1px solid $yellow2
   color: $yellow2
 
-.form-control:focus
+.formregister input:focus,.formregister input:active,.formregister input:hover,.formregister input:visited,.formregister input:focus-within
   background-color:$blue2
   border: 1px solid $yellow2
   color: $yellow2
 
 /* Chrome/Opera/Safari */
-.form-control::-webkit-input-placeholder
+.formregister input::-webkit-input-placeholder
   color: $yellow2
 
 /* Firefox 19+ */
-.form-control::-moz-placeholder
+.formregister input::-moz-placeholder
   color: $yellow2
 
 /* IE 10+ */
-.form-control:-ms-input-placeholder
+.formregister input:-ms-input-placeholder
   color: $yellow2
 
 /* Firefox 18- */
-.form-control:-moz-placeholder
+.formregister input:-moz-placeholder
   color: $yellow2
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus
+  border: 1px solid $yellow2
+  -webkit-text-fill-color: $yellow2
+  -webkit-box-shadow: 0 0 0px 1000px $blue2 inset
+  transition: background-color 5000s ease-in-out 0s
+

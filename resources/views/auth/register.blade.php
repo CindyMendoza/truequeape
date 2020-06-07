@@ -11,7 +11,7 @@
         </div>
         <p class="text-center text-white">{{ __('Solo llena estos datos') }}</p>
 
-        <div class="">
+        <div class="formregister">
           <form method="POST" action="{{ route('register') }}">
             @csrf
             <div class="form-group row">
@@ -119,7 +119,7 @@
             </p>
 
             <div class="form-group row mb-0">
-              <div class="col-md-6 offset-md-4">
+              <div class="col-12">
                 <button type="submit" class="btn text-white bg-yellow btn-block btn-lg">
                   {{ __('Crea tu cuenta') }}
                 </button>
