@@ -37,11 +37,14 @@
                   placeholder="" name="headcompanyname" value="{{ old('headcompanyname') }}" required
                   autocomplete="headcompanyname" autofocus>
                   <option selected value="">{{ __('Rubro') }}</option>
+                  @foreach($headcompany as $key => $data)
+                  <option>{{$data->name}}</option>
 
+                  @endforeach
                 </select>
-                @php
+                {{-- @php
                 echo Form::select('size', ['L' => 'Large', 'S' => 'Small']);
-                @endphp
+                @endphp --}}
 
 
 
