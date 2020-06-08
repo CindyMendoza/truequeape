@@ -17,7 +17,6 @@ class CreateDetailsregistryTable extends Migration
             $table->id();
             $table->timestamps();
             $table->foreignId('user_id')->constrained('users');
-            $table->foreignId('company_id')->constrained('company');
             $table->foreignId('headcompany_id')->constrained('headcompany');
         });
     }
